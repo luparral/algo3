@@ -1,0 +1,45 @@
+\section{Metahurística GRASP}
+\subsection{Desarrollo}
+El problema de K-PMP es un problema muy dificil de resolver, debido a que es NP-Completo le toma mucho tiempo a un algoritmo exacto resolverlo, se puede ver facilmente que para generar todas las particiones posibles, esto no es polinomial (ver ejercicio 2).
+
+Utilizando una \textit{heuristica constructiva golosa}, se lo pudo resolver en tiempo polinomial aunque obteniendo en su mayor parte soluciones suboptimas  (ver ejercicio 3).
+
+Utilizando una \textit{heuristica de busqueda local}, se pudieron proponer diferentes vecindades para soluciones, este algoritmo de busqueda local es capaz de devolvernos la mejor distribucion de una vecindad dada su solucion, esto es polinomial, pero aun estamos lejos de obtener el valor exacto (ver ejercicio 4).
+
+Lo que se nota utilizando cualquiera de las dos heuristicas anteriormente planteadas entonces es, estamos realizando diferentes estrategias y criterios para tratar de resolver el mismo problema, \textit{mejorando en complejidad temporal pero siempre  sacrificando presicion de la solucion} al problema propiamente dicho.
+
+El objetivo ahora es encontrar una manera de combinar ambas heuristicas, y eventualmente poder llegar a la solucion optima, o al menos poder acercarlo lo suficientemente, sin tener que sacrificar tanto tiempo para su resolucion: La \textbf{Metahuristica GRASP (Greedy Randomized Adaptive Search Procedures)} cumple efectivamente.
+
+Feo y Resende explican como la efectividad de la busqueda local depende de varios factores: la estructura de la vecindad, la funcion a ser minimizada y la solucion con la que se empieza. Una solucion se dice que esta en la "cuenca de atraccion" del optimo global si es que la busqueda local arrancando con dicha solucion, lleva al optimo global.
+
+Una vez que tenemos los criterios de la busqueda local (se eligio el primer criterio, ejercicio 4), lo unico que nos hace falta es diferentes soluciones con las cuales arrancar, e ir probandolas hasta poder dar con alguna que este en la cuenca de atraccion, o al menos se acerque al valor de la solucion optima lo suficientemente sin sacrificar gran cantidad de tiempo.
+
+Utilizar soluciones aleatorias son de calidad pobre en general, la heuristica golosa produce mejores soluciones que las aleatorias, aunque suboptimas: se elije al elemento mejor posicionado, y se lo agrega a la construccion. Esta heuristica siempre vendria a generar la misma solucion, haciendo que si la solucion final no cae en la cuenca de atraccion, nunca se llegaria al optimo global utilizando la busqueda local.
+
+Es por eso entonces que se usa una heuristica golosa \textbf{aleatorizada} (RCL, Restricted Candidate List), lo que le agrega variacion a esta construccion de solucion golosa, en vez de siempre elegir el mejor posicionado, se lo agrega a una lista de candidatos para la construccion en esa iteracion, y de todos ellos se elige uno al azar.
+
+Para construir este RCL, se eligio el esquema basado en el \textbf{valor}: todos los elementos candidatos con funcion golosa (en este caso maximo peso) dentro de un $\alpha$\% del valor goloso, son colocados en el RCL.
+
+\begin{lstlisting}
+Candidato function pickOne(vector<Candidato> candidatosOrdenados, var alpha)
+	var limit = ceil(alpha * candidatosOrdenados.size())
+	var i = rand(0, 100) % (int)limit
+	Retornar y eliminar el i-esimo candidato de candidatosOrdenados
+Fin
+\end{lstlisting}
+
+Ejecutamos entonces este procedimiento hasta cumplir un criterio de parada: Que la solucion f* no mejore luego de k iteraciones, que no mejore en un un $\sigma$\% luego de k iteraciones, que se repitan varias veces las mismas soluciones golosas, o que simplemente se lo deje ejecutando hasta que se decida cortarlo.
+
+\begin{lstlisting}
+f* = MAX_VALUE
+Repetir hasta que el criterio de parada este cumpla:
+
+	Generar solucion golosa x
+	Busqueda local de un optimo local x', arrancando desde x
+	Si f(x') < f*
+		f* = f(x')
+		x* = x'
+	Fin Si
+
+Fin
+\end{lstlisting}

@@ -1,0 +1,38 @@
+particiones <- vector<set<int>> //Crear vector (O(cant_particiones))
+for nodo in nodos{ //cant_nodos veces
+	particiones[0]<- nodo //meter en conjunto un nodo
+}
+
+pesos <- vector<NodoConPeso> // O(cant_nodos)
+for nodo in nodos{ //cant_nodos veces
+	pesos[nodo]<- NodoConPeso(nodo, peso_intraparticion(nodo, g, particiones[0])) //calcular peso_intraparticion (lineal en cant_nodos)
+}
+sort pesos con ComparacionPorPeso //sort con comparacion customizada n log n porque la comparacion es O(1)
+
+for(nodo in pesos){ //cant_nodos veces
+	menorPeso <- peso_intraparticion(pesos[nodo].nodo, g, particiones[0]) //O(1)
+	for(l in cant_particiones){ //cant_particiones veces
+		pesoEnL <- peso_Intraparticion(pesos[nodo].nodo, g, particiones[l]) //calcular peso_intraparticion (lineal en la cantidad de nodos)
+		if(pesoEnL < menorPeso){ //O(1)
+			actualizo el nuevo menor peso y el conjunto al que corresponde //O(1)
+		}
+	}
+	saco del conjunto 0 al nodo //sacar de un conjunto 
+	lo pongo en el conjunto en el que tiene menor peso //poner en un conjunto
+}
+
+peso_intraparticion(i, grafo, particion)
+if(particion.empty){
+	return 0
+} else{
+	int sumaPesos = 0
+	for(nodo in particion){
+		sumaPesos += grafo[i][nodo]
+	}
+	return sumaPesos;
+}
+
+PesoIntraparticion:
+O(1)
+n-1 veces O(1)
+................. Lineal

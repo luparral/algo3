@@ -1,0 +1,8 @@
+aa
+bb
+5
+aa ee 4 5
+aa ee 23 24
+ee bb 17 20
+ee aa 12 14
+ee aa 26 28

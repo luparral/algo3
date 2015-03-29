@@ -1,0 +1,68 @@
+\section{Introducción al problema de k-PMP}
+\subsection{Relación con problema 3 del TP 1}
+En el ejercicio 3 del primer trabajo practico, teniamos que encontrar la forma de distribuir \textbf{n} sustancias quimicas desde una fabrica hasta un deposito, en la minima cantidad de camiones posibles, tal que no se superase un umbral \textbf{M} de peligrosidad. La peligrosidad es una relacion entre cada par de quimicos.
+
+Veamoslo como un problema de grafos:
+
+\begin{itemize}
+ \item Sea G un grafo completo de \textbf{n} vertices
+ \item Cada vertice representa a una sustancia quimica, y es adyacente a todos los demas (por eso es completo)
+ \item Cada arista que conecta un par de vertices tiene como peso la peligrosidad de dicho par de productos
+\end{itemize}
+
+Lo que queremos hacer ahi es encontrar una \textbf{k} particion tal que el peso de cada conjunto de la particion (tal como fue definido en el problema de TP3) sea menor o igual a \textbf{M}, y ademas el \textbf{k} sea mínimo.
+
+En este caso, el \textbf{k} nos viene dado, por lo tanto queremos formar \textbf{k} grupos tal que la suma del peso de las intraparticiones de cada grupo sea el minimo.
+
+\subsection{Relación con problema de coloreo de vértices de grafos}
+El problema que se esta encarando, requiere que dado un \textbf{k} se busque una particion del conjunto de nodos tal que se minimice la suma del peso de las aristas intraparticiones, esto es en otras palabras, buscar la manera de separar los nodos en conjuntos de tal manera que la suma de los pesos de todos los conjuntos sea la menor, donde el peso de un conjunto esta dado por la suma del peso de cada arista que une dos nodos del mismo conjunto.
+
+Ahora si en vez de verlo como conjuntos, lo cambiásemos por coloreo, podríamos ver que en realidad este problema es encontrar la manera de colorear los vértices, en la que la suma del peso de todas las adyacencias de nodos de un mismo color sea la menor posible.
+
+En un caso ideal, la solución óptima sería encontrar un k-coloreo por definición, donde para todo par de nodos perteneciente a un color, no exista adyacencia, siendo entonces que la suma de los pesos sea cero, ya que no existiría ninguna adyacencia interna en ningún color, que es lo mismo que no haya adyacencia interna en los conjuntos que se los decidio separar.
+
+Como el parámetro de la cantidad de conjuntos \textbf{k}, viene dado por la entrada, estamos limitados en cantidad de colores disponibles y por lo tanto la mayoría de las veces no se va a poder cumplir el caso ideal. 
+
+Un detalle interesante de la transformación anteriormente explicada, es que esto lo convierte en un problema NP-Completo: si lográsemos resolver el problema k-PMP en complejidad polinomial, entonces tendríamos una manera de resolver coloreo en tiempo polinomial, el cual es NP-Completo.
+
+\newpage
+\subsection{Modelación de problemas de la vida real}
+A continuación vamos a presentar varios casos en los que un problema se podría llegar a modelar con grafos, y por lo tanto, resuelto con los algoritmos presentados en este trabajo practico.
+
+\bigskip
+\noindent \underline{\textbf{Torneo de Artes Marciales Abierto}}
+
+En la ciudad de Foshan (China), reconocida por sus multiples dojos y cuna de las artes marciales, se decidió realizar un torneo con espectadores europeos y americanos para la popularizacion de las artes marciales en el occidente. Como el torneo es abierto, el nivel de maestría de cada competidor es irrelevante, para que se pueda postular cualquiera y así afirmar la reputación de las artes marciales. 
+
+Se conoce que el peso de cada contrincante aporta un gran nivel de desventaja si es que la diferencia con el oponente es muy grande, es por eso que se decidió dividir en varias categorias al torneo.
+
+Ahora bien, no se sabe en cuantos tipos de categorías conviene dividirlos efectivamente, se lo quiere realizar lo mas parejo posible. Los organizadores nos brindaran entonces la cantidad de categorías en las que quieren dividir a los competidores y nuestra tarea es brindarles como deben organizar a los competidores en dichas categorías de modo que la diferencia de pesos entre ellos sea mínima.
+
+Modelando este ejemplo como un problema de k-PMP, la asociacion que se hace es:
+
+\begin{itemize}
+\item[•]Cada nodo es un competidor.
+\item[•]Todos los competidores estan conectados por una arista, donde el peso va a ser la diferencia de pesos de dichos competidores.
+\end{itemize}
+
+Lo que se realiza ahora entonces, es pasarle estos datos a nuestro programa, con la cantidad de categorías deseadas, y este nos va a devolver la distribución correcta de cada competidor y la diferencia total de pesos.
+
+\bigskip
+\noindent \underline{\textbf{Casamiento}}
+
+Ha de celebrarse una boda entre dos familias de la alta sociedad, como va a estar en el ojo de todos los periodistas, el evento tiene que ocurrir sin mayores conflictos.  
+
+Como en todo circulo social ocurre, cada persona tiene diferente grado de afinidad con los demás, se puede llegar a valuar dicho grado de afinidad que tienen dos personas en una escala del 1 al 100, donde 1 es que se llevan excelentemente, y 100 son enemigos declarados, por un tema de status social, no se las puede dejar de invitar a las personas aunque se de esta situacion incomoda.
+
+Por otro lado, la organizadora de dicha boda está realizando investigaciones en cuanto a qué salón contratar para dicho evento. Cada salón que visitó cuenta con una cantidad determinada de mesas para ubicar a los invitados.
+
+Dada una cantidad fija de mesas, a la organizadora le interesa saber, de qué manera puede distribuír a los invitados del casamiento de modo tal que en cada mesa haya un nivel mínimo de no-afinidad, para asi disminuir el riesgo de peleas.
+
+Modelando este ejemplo como un problema de k-PMP, la asociación que se hace es:
+\begin{itemize}
+\item[•]Cada nodo es un invitado.
+\item[•]Todos los invitados estan conectados por una arista, donde el peso va a ser la afinidad entre ambos invitados.
+\item[•]Las mesas serán los k-subconjuntos en los que se pide dividir a los nodos tal que el peso entre sus aristas incidentes sea el mínimo.
+\end{itemize}
+
+Lo que se realiza ahora entonces, es pasarle estos datos a nuestro programa, con la cantidad de mesas deseadas, y este nos va a devolver la distribución correcta de los invitados y el nivel total de afinidad en la boda.

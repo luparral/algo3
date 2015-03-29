@@ -1,0 +1,47 @@
+Mejor tiempo para 5 nodos, 5 aristas y k=5 : 0.005 milisegundos
+Mejor tiempo para 10 nodos, 20 aristas y k=5 : 0.067 milisegundos
+Mejor tiempo para 25 nodos, 25 aristas y k=5 : 10.418 milisegundos
+Mejor tiempo para 30 nodos, 30 aristas y k=5 : 10.618 milisegundos
+Mejor tiempo para 40 nodos, 30 aristas y k=5 : 91.392 milisegundos
+Mejor tiempo para 50 nodos, 30 aristas y k=5 : 177.418 milisegundos
+Mejor tiempo para 60 nodos, 30 aristas y k=5 : 367.829 milisegundos
+Mejor tiempo para 70 nodos, 30 aristas y k=5 : 188.571 milisegundos
+Mejor tiempo para 80 nodos, 30 aristas y k=5 : 1325.52 milisegundos
+Mejor tiempo para 90 nodos, 30 aristas y k=5 : 1900.77 milisegundos
+Mejor tiempo para 100 nodos, 30 aristas y k=5 : 10258 milisegundos
+
+Mejor tiempo para 5 nodos, 5 aristas y k=25 : 0.005 milisegundos
+Mejor tiempo para 10 nodos, 20 aristas y k=25 : 0.009 milisegundos
+Mejor tiempo para 25 nodos, 25 aristas y k=25 : 0.024 milisegundos
+Mejor tiempo para 30 nodos, 30 aristas y k=25 : 0.027 milisegundos
+Mejor tiempo para 40 nodos, 30 aristas y k=25 : 0.035 milisegundos
+Mejor tiempo para 50 nodos, 30 aristas y k=25 : 0.043 milisegundos
+Mejor tiempo para 60 nodos, 30 aristas y k=25 : 61.292 milisegundos
+Mejor tiempo para 70 nodos, 30 aristas y k=25 : 0.063 milisegundos
+Mejor tiempo para 80 nodos, 30 aristas y k=25 : 757.62 milisegundos
+Mejor tiempo para 90 nodos, 30 aristas y k=25 : 0.085 milisegundos
+Mejor tiempo para 100 nodos, 30 aristas y k=25 : 680.316 milisegundos
+
+Mejor tiempo para 5 nodos, 5 aristas y k=75 : 0.007 milisegundos
+Mejor tiempo para 10 nodos, 20 aristas y k=75 : 0.014 milisegundos
+Mejor tiempo para 25 nodos, 25 aristas y k=75 : 0.029 milisegundos
+Mejor tiempo para 30 nodos, 30 aristas y k=75 : 0.034 milisegundos
+Mejor tiempo para 40 nodos, 30 aristas y k=75 : 0.063 milisegundos
+Mejor tiempo para 50 nodos, 30 aristas y k=75 : 0.088 milisegundos
+Mejor tiempo para 60 nodos, 30 aristas y k=75 : 0.11 milisegundos
+Mejor tiempo para 70 nodos, 30 aristas y k=75 : 0.101 milisegundos
+Mejor tiempo para 80 nodos, 30 aristas y k=75 : 0.12 milisegundos
+Mejor tiempo para 90 nodos, 30 aristas y k=75 : 0.128 milisegundos
+Mejor tiempo para 100 nodos, 30 aristas y k=75 : 361.681 milisegundos
+
+Mejor tiempo para 5 nodos, 5 aristas y k=150 : 0.005 milisegundos
+Mejor tiempo para 10 nodos, 20 aristas y k=150 : 0.009 milisegundos
+Mejor tiempo para 25 nodos, 25 aristas y k=150 : 0.024 milisegundos
+Mejor tiempo para 30 nodos, 30 aristas y k=150 : 0.029 milisegundos
+Mejor tiempo para 40 nodos, 30 aristas y k=150 : 0.046 milisegundos
+Mejor tiempo para 50 nodos, 30 aristas y k=150 : 0.058 milisegundos
+Mejor tiempo para 60 nodos, 30 aristas y k=150 : 0.075 milisegundos
+Mejor tiempo para 70 nodos, 30 aristas y k=150 : 2.103 milisegundos
+Mejor tiempo para 80 nodos, 30 aristas y k=150 : 2.122 milisegundos
+Mejor tiempo para 90 nodos, 30 aristas y k=150 : 4.144 milisegundos
+Mejor tiempo para 100 nodos, 30 aristas y k=150 : 15.167 milisegundos

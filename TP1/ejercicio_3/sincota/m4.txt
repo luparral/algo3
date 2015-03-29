@@ -1,0 +1,41 @@
+﻿Mejor tiempo para 10 productos con umbral 4: 0 milisegundos.
+Promedio para 10 productos con umbral 4: 0 milisegundos.
+
+
+Mejor tiempo para 20 productos con umbral 4: 0 milisegundos.
+Promedio para 20 productos con umbral 4: 0 milisegundos.
+
+
+Mejor tiempo para 40 productos con umbral 4: 0 milisegundos.
+Promedio para 40 productos con umbral 4: 0.2 milisegundos.
+
+
+Mejor tiempo para 60 productos con umbral 4: 0 milisegundos.
+Promedio para 60 productos con umbral 4: 0.8 milisegundos.
+
+
+Mejor tiempo para 80 productos con umbral 4: 1 milisegundos.
+Promedio para 80 productos con umbral 4: 1.8 milisegundos.
+
+
+Mejor tiempo para 100 productos con umbral 4: 3 milisegundos.
+Promedio para 100 productos con umbral 4: 3 milisegundos.
+
+
+Mejor tiempo para 200 productos con umbral 4: 19 milisegundos.
+Promedio para 200 productos con umbral 4: 19.6 milisegundos.
+
+
+Mejor tiempo para 400 productos con umbral 4: 151 milisegundos.
+Promedio para 400 productos con umbral 4: 153.4 milisegundos.
+
+
+Mejor tiempo para 800 productos con umbral 4: 1176 milisegundos.
+Promedio para 800 productos con umbral 4: 1193.6 milisegundos.
+
+
+Mejor tiempo para 1000 productos con umbral 4: 2254 milisegundos.
+Promedio para 1000 productos con umbral 4: 2279 milisegundos.
+
+
+El PROMEDIO de los MEJORES TIEMPOS de las 10 instancias es: 360.4 milisegundos.

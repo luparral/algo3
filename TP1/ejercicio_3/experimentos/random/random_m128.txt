@@ -1,0 +1,77 @@
+﻿Mejor tiempo para 10 productos con umbral 128: 0 milisegundos.
+Promedio para 10 productos con umbral 128: 0.04 milisegundos.
+
+
+Mejor tiempo para 20 productos con umbral 128: 0 milisegundos.
+Promedio para 20 productos con umbral 128: 0.12 milisegundos.
+
+
+Mejor tiempo para 30 productos con umbral 128: 0 milisegundos.
+Promedio para 30 productos con umbral 128: 0.16 milisegundos.
+
+
+Mejor tiempo para 40 productos con umbral 128: 0 milisegundos.
+Promedio para 40 productos con umbral 128: 0.32 milisegundos.
+
+
+Mejor tiempo para 50 productos con umbral 128: 0 milisegundos.
+Promedio para 50 productos con umbral 128: 0.52 milisegundos.
+
+
+Mejor tiempo para 60 productos con umbral 128: 0 milisegundos.
+Promedio para 60 productos con umbral 128: 0.84 milisegundos.
+
+
+Mejor tiempo para 70 productos con umbral 128: 1 milisegundos.
+Promedio para 70 productos con umbral 128: 1.24 milisegundos.
+
+
+Mejor tiempo para 80 productos con umbral 128: 1 milisegundos.
+Promedio para 80 productos con umbral 128: 1.72 milisegundos.
+
+
+Mejor tiempo para 90 productos con umbral 128: 2 milisegundos.
+Promedio para 90 productos con umbral 128: 2.24 milisegundos.
+
+
+Mejor tiempo para 100 productos con umbral 128: 2 milisegundos.
+Promedio para 100 productos con umbral 128: 2.92 milisegundos.
+
+
+Mejor tiempo para 200 productos con umbral 128: 19 milisegundos.
+Promedio para 200 productos con umbral 128: 20 milisegundos.
+
+
+Mejor tiempo para 300 productos con umbral 128: 65 milisegundos.
+Promedio para 300 productos con umbral 128: 66.48 milisegundos.
+
+
+Mejor tiempo para 400 productos con umbral 128: 148 milisegundos.
+Promedio para 400 productos con umbral 128: 151.84 milisegundos.
+
+
+Mejor tiempo para 500 productos con umbral 128: 273 milisegundos.
+Promedio para 500 productos con umbral 128: 283.4 milisegundos.
+
+
+Mejor tiempo para 600 productos con umbral 128: 493 milisegundos.
+Promedio para 600 productos con umbral 128: 514.36 milisegundos.
+
+
+Mejor tiempo para 700 productos con umbral 128: 744 milisegundos.
+Promedio para 700 productos con umbral 128: 769.24 milisegundos.
+
+
+Mejor tiempo para 800 productos con umbral 128: 1148 milisegundos.
+Promedio para 800 productos con umbral 128: 1159.96 milisegundos.
+
+
+Mejor tiempo para 900 productos con umbral 128: 1656 milisegundos.
+Promedio para 900 productos con umbral 128: 1673.56 milisegundos.
+
+
+Mejor tiempo para 1000 productos con umbral 128: 2256 milisegundos.
+Promedio para 1000 productos con umbral 128: 2290.24 milisegundos.
+
+
+El PROMEDIO de los MEJORES TIEMPOS de las 19 instancias es: 358.316 milisegundos.

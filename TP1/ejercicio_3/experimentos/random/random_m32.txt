@@ -1,0 +1,77 @@
+﻿Mejor tiempo para 10 productos con umbral 32: 0 milisegundos.
+Promedio para 10 productos con umbral 32: 0.04 milisegundos.
+
+
+Mejor tiempo para 20 productos con umbral 32: 0 milisegundos.
+Promedio para 20 productos con umbral 32: 0.08 milisegundos.
+
+
+Mejor tiempo para 30 productos con umbral 32: 0 milisegundos.
+Promedio para 30 productos con umbral 32: 0.2 milisegundos.
+
+
+Mejor tiempo para 40 productos con umbral 32: 0 milisegundos.
+Promedio para 40 productos con umbral 32: 0.32 milisegundos.
+
+
+Mejor tiempo para 50 productos con umbral 32: 0 milisegundos.
+Promedio para 50 productos con umbral 32: 0.56 milisegundos.
+
+
+Mejor tiempo para 60 productos con umbral 32: 0 milisegundos.
+Promedio para 60 productos con umbral 32: 0.84 milisegundos.
+
+
+Mejor tiempo para 70 productos con umbral 32: 1 milisegundos.
+Promedio para 70 productos con umbral 32: 1.16 milisegundos.
+
+
+Mejor tiempo para 80 productos con umbral 32: 1 milisegundos.
+Promedio para 80 productos con umbral 32: 1.72 milisegundos.
+
+
+Mejor tiempo para 90 productos con umbral 32: 2 milisegundos.
+Promedio para 90 productos con umbral 32: 2.28 milisegundos.
+
+
+Mejor tiempo para 100 productos con umbral 32: 3 milisegundos.
+Promedio para 100 productos con umbral 32: 3.08 milisegundos.
+
+
+Mejor tiempo para 200 productos con umbral 32: 21 milisegundos.
+Promedio para 200 productos con umbral 32: 22.08 milisegundos.
+
+
+Mejor tiempo para 300 productos con umbral 32: 67 milisegundos.
+Promedio para 300 productos con umbral 32: 69.76 milisegundos.
+
+
+Mejor tiempo para 400 productos con umbral 32: 149 milisegundos.
+Promedio para 400 productos con umbral 32: 154.08 milisegundos.
+
+
+Mejor tiempo para 500 productos con umbral 32: 284 milisegundos.
+Promedio para 500 productos con umbral 32: 287.44 milisegundos.
+
+
+Mejor tiempo para 600 productos con umbral 32: 496 milisegundos.
+Promedio para 600 productos con umbral 32: 499.56 milisegundos.
+
+
+Mejor tiempo para 700 productos con umbral 32: 763 milisegundos.
+Promedio para 700 productos con umbral 32: 767 milisegundos.
+
+
+Mejor tiempo para 800 productos con umbral 32: 1178 milisegundos.
+Promedio para 800 productos con umbral 32: 1188.84 milisegundos.
+
+
+Mejor tiempo para 900 productos con umbral 32: 1622 milisegundos.
+Promedio para 900 productos con umbral 32: 1661.96 milisegundos.
+
+
+Mejor tiempo para 1000 productos con umbral 32: 2186 milisegundos.
+Promedio para 1000 productos con umbral 32: 2199.92 milisegundos.
+
+
+El PROMEDIO de los MEJORES TIEMPOS de las 19 instancias es: 356.474 milisegundos.

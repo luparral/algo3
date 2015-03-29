@@ -1,0 +1,121 @@
+Promedio de 10000 repeticiones para 10 tablones y salto de 2: 0 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 2: 0.0018 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 2: 0.0002 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 2: 0.0014 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 2: 0.002 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 2: 0.0003 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 2: 0.0024 milisegundos y NO pudo cruzar.
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 4: 0.0018 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 4: 0.0027 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 4: 0.0017 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 4: 0.0024 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 4: 0.002 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 4: 0.0035 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 4: 0.0023 milisegundos y NO pudo cruzar.
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 8: 0.0015 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 8: 0.0041 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 8: 0.0044 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 8: 0.0034 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 8: 0.0086 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 8: 0.0125 milisegundos y NO pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 8: 0.0078 milisegundos y NO pudo cruzar.
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 16: 0.0006 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 16: 0.0022 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 16: 0.0135 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 16: 1.2844 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 16: 2.5969 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 16: 5.1812 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 16: 10.4617 milisegundos y pudo cruzar.
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 32: 0.001 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 32: 0.0025 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 32: 0.0135 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 32: 1.2237 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 32: 2.4663 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 32: 4.9551 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 32: 9.7912 milisegundos y pudo cruzar.
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 64: 0.0007 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 64: 0.0017 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 64: 0.0122 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 64: 1.1776 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 64: 2.3938 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 64: 4.7486 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 64: 9.5021 milisegundos y pudo cruzar.
+
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 128: 0.0006 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 128: 0.0009 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 128: 0.0101 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 128: 1.1593 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 128: 2.3844 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 128: 4.6654 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 128: 9.3601 milisegundos y pudo cruzar.
+
+
+
+Promedio de 10000 repeticiones para 10 tablones y salto de 256: 0.0008 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100 tablones y salto de 256: 0.0005 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 1000 tablones y salto de 256: 0.0083 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 100000 tablones y salto de 256: 1.1509 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 200000 tablones y salto de 256: 2.3955 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 400000 tablones y salto de 256: 4.6588 milisegundos y pudo cruzar.
+
+Promedio de 10000 repeticiones para 800000 tablones y salto de 256: 9.2855 milisegundos y pudo cruzar.
+

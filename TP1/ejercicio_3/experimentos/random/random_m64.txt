@@ -1,0 +1,77 @@
+﻿Mejor tiempo para 10 productos con umbral 64: 0 milisegundos.
+Promedio para 10 productos con umbral 64: 0.08 milisegundos.
+
+
+Mejor tiempo para 20 productos con umbral 64: 0 milisegundos.
+Promedio para 20 productos con umbral 64: 0.08 milisegundos.
+
+
+Mejor tiempo para 30 productos con umbral 64: 0 milisegundos.
+Promedio para 30 productos con umbral 64: 0.2 milisegundos.
+
+
+Mejor tiempo para 40 productos con umbral 64: 0 milisegundos.
+Promedio para 40 productos con umbral 64: 0.36 milisegundos.
+
+
+Mejor tiempo para 50 productos con umbral 64: 0 milisegundos.
+Promedio para 50 productos con umbral 64: 0.52 milisegundos.
+
+
+Mejor tiempo para 60 productos con umbral 64: 0 milisegundos.
+Promedio para 60 productos con umbral 64: 0.8 milisegundos.
+
+
+Mejor tiempo para 70 productos con umbral 64: 1 milisegundos.
+Promedio para 70 productos con umbral 64: 1.16 milisegundos.
+
+
+Mejor tiempo para 80 productos con umbral 64: 1 milisegundos.
+Promedio para 80 productos con umbral 64: 1.6 milisegundos.
+
+
+Mejor tiempo para 90 productos con umbral 64: 2 milisegundos.
+Promedio para 90 productos con umbral 64: 2.32 milisegundos.
+
+
+Mejor tiempo para 100 productos con umbral 64: 2 milisegundos.
+Promedio para 100 productos con umbral 64: 3.16 milisegundos.
+
+
+Mejor tiempo para 200 productos con umbral 64: 21 milisegundos.
+Promedio para 200 productos con umbral 64: 21.16 milisegundos.
+
+
+Mejor tiempo para 300 productos con umbral 64: 65 milisegundos.
+Promedio para 300 productos con umbral 64: 66.96 milisegundos.
+
+
+Mejor tiempo para 400 productos con umbral 64: 144 milisegundos.
+Promedio para 400 productos con umbral 64: 148.6 milisegundos.
+
+
+Mejor tiempo para 500 productos con umbral 64: 277 milisegundos.
+Promedio para 500 productos con umbral 64: 284.28 milisegundos.
+
+
+Mejor tiempo para 600 productos con umbral 64: 490 milisegundos.
+Promedio para 600 productos con umbral 64: 501.68 milisegundos.
+
+
+Mejor tiempo para 700 productos con umbral 64: 774 milisegundos.
+Promedio para 700 productos con umbral 64: 805.04 milisegundos.
+
+
+Mejor tiempo para 800 productos con umbral 64: 1119 milisegundos.
+Promedio para 800 productos con umbral 64: 1126.28 milisegundos.
+
+
+Mejor tiempo para 900 productos con umbral 64: 1615 milisegundos.
+Promedio para 900 productos con umbral 64: 1659.32 milisegundos.
+
+
+Mejor tiempo para 1000 productos con umbral 64: 2156 milisegundos.
+Promedio para 1000 productos con umbral 64: 2193.76 milisegundos.
+
+
+El PROMEDIO de los MEJORES TIEMPOS de las 19 instancias es: 350.895 milisegundos.

@@ -1,0 +1,11 @@
+Mejor tiempo: 1.781, Mejor peso: 48
+Mejor tiempo: 0.266, Mejor peso: 70
+Mejor tiempo: 4.314, Mejor peso: 59
+Mejor tiempo: 3.276, Mejor peso: 34
+Mejor tiempo: 0.66, Mejor peso: 50
+Mejor tiempo: 2.494, Mejor peso: 61
+Mejor tiempo: 0.853, Mejor peso: 45
+Mejor tiempo: 3.678, Mejor peso: 35
+Mejor tiempo: 26.06, Mejor peso: 68
+Mejor tiempo: 0.642, Mejor peso: 65
+Tiempo promedio: 4.4024, Peso promedio: 53

@@ -1,0 +1,40 @@
+1)Recepción y preparación de datos:
+A partir de la entrada proporcionada para el problema, prepararemos la matriz de adyacencias del grafo pasado en la instancia poniéndo en la posición ij de la misma el peso de la arista que conecta los nodos i y j. En el caso de dos nodos que no están conectados, en la posición respectiva de la matriz pondremos como peso 0.
+
+2)Armamos k conjuntos vacíos de nodos.
+
+3)Ponemos todos los nodos en un conjunto cualquiera.
+
+4)Obtenemos todos los nodos con sus pesos de intrapartición y los guardamos ordenados en un vector en forma creciente. Almacenamos la información en un struct NodoConPeso que tiene un nodo y su peso en una particion dada.
+
+5)Para cada nodo del vector anterior, busco el conjunto en el que dicho nodo tenga un peso de intrapartición menor, lo saco del que estaba y lo pongo en el nuevo.
+
+**Peso de un nodo: suma de los pesos de las aristas que inciden sobre él.
+
+**Peso de intrapartición:
+Dado un nodo y un conjunto de nodos, determina el peso de ese nodo en el conjunto, dado por el peso de las aristas que sean incidentes al nodo y a los otros nodos del conjunto.
+
+
+particiones <- vector<set<int>>
+for nodo in nodos{
+	particiones[0]<- nodo
+}
+
+pesos <- vector<NodoConPeso>
+for nodo in nodos{
+	pesos[nodo]<- NodoConPeso(nodo, peso_intraparticion(nodo, g, particiones[0]))
+}
+sort pesos con ComparacionPorPeso
+
+for(nodo in pesos){
+	menorPeso <- peso_intraparticion(pesos[nodo].nodo, g, particiones[0])
+	for(l in cant_particiones){
+		pesoEnL <- peso_Intraparticion(pesos[nodo].nodo, g, particiones[l])
+		if(pesoEnL < menorPeso){
+			actualizo el nuevo menor peso y el conjunto al que corresponde
+		}
+	}
+	saco del conjunto 0 al nodo
+	lo pongo en el conjunto en el que tiene menor peso
+}
+

@@ -1,0 +1,140 @@
+#include <utility>
+#include <vector>
+#include <iostream>
+#include <set>
+#include "greedy.h"
+#include "local1.h"
+
+using namespace std;
+
+//Structs
+
+struct NodoConPeso {
+	int nodo;
+	int peso;
+	int conjuntoActual;
+
+	NodoConPeso(int n, float w, int c): nodo(n), peso(w), conjuntoActual(c){}
+
+};
+
+
+inline bool operator<(const NodoConPeso& n1, const NodoConPeso& n2) {
+    return (n1.nodo > n2.nodo);
+}
+
+struct ComparacionPorPeso {
+
+    inline bool operator() (const NodoConPeso& n1, const NodoConPeso& n2) {
+        return (n1.peso > n2.peso);
+    }
+};
+
+//Typedefs
+
+typedef vector< vector <float> > Grafo;
+typedef vector<int> Solucion;
+typedef set<NodoConPeso> Conjunto;
+typedef vector<Conjunto> Particion;
+
+//Prototipado de funciones
+
+int pesoDeNodoEnConjunto(int i, Grafo& g, const Conjunto& conj);
+Particion convertirSolucionEnParticion(const Solucion& sol, int cant_partciones);
+int pesoDeParticion(const Particion& part);
+void imprimir_particion(Particion& particion);
+void swapearNodos(int nodo_i, int conjunto_nodo_j, int nodo_j, int conjunto_nodo_i, Particion& particion_actual);
+
+
+int pesoDeNodoEnConjunto(int i, Grafo& g, const Conjunto& conjunto){
+	if(conjunto.empty()){
+		return 0;
+	} else {
+		int sumaPesos = 0;
+		for(Conjunto::const_iterator it = conjunto.begin(); it != conjunto.end(); it++){
+			sumaPesos += g[i][(*it).nodo];
+		}
+		return sumaPesos;
+	}
+}
+
+Particion convertirSolucionEnParticion(const Solucion& sol, int cant_partciones){
+	Particion particion_inicial(cant_partciones, Conjunto());
+	for(int i = 0; i < sol.size(); i++){
+		particion_inicial[sol[i]-1].insert(NodoConPeso(i, 0, sol[i]-1));
+	}
+	return particion_inicial;
+
+}
+
+Solucion convertirParticionEnSolucion(const Particion& particion, int cant_nodos){
+	Solucion solucion(cant_nodos, -1);
+	for(int k = 0; k < particion.size(); k++){
+		for(Conjunto::const_iterator it = particion[k].begin(); it != particion[k].end(); it++){
+			solucion[(*it).nodo] = k;
+		}
+	}
+	return solucion;
+}
+
+
+int pesoDeParticion(const Particion& part, int k, Grafo& g){
+	int sumaPesos = 0;
+	for(int i = 0; i < k; i++){
+		for(Conjunto::const_iterator it = part[i].begin(); it != part[i].end(); it++){
+			sumaPesos += g[i][(*it).nodo];
+		}
+	}
+	return sumaPesos;
+}
+
+BusquedaLocal1::BusquedaLocal1(const Solucion& sol){
+	this->solucion_inicial = sol;
+	this->mejor_vecino = sol;
+}
+
+BusquedaLocal1::~BusquedaLocal1(){}
+
+Solucion BusquedaLocal1::resolver(const Grafo& g, int cant_particiones, int cant_nodos){
+	Particion particion_actual = convertirSolucionEnParticion(this->solucion_inicial, cant_particiones);
+	Particion mejor_particion = convertirSolucionEnParticion(this->solucion_inicial, cant_particiones);
+	
+	for(int nodo_i = 0; nodo_i < cant_nodos; nodo_i++){
+		int conjunto_nodo_i = this->solucion_inicial[nodo_i];
+		for(int nodo_j = nodo_i+1; nodo_j < cant_nodos; nodo_j++){
+			int conjunto_nodo_j = this->solucion_inicial[nodo_j];
+			//me muevo al vecino
+			swapearNodos(nodo_i, conjunto_nodo_j, nodo_j, conjunto_nodo_i, particion_actual);
+			if(pesoDeParticion(particion_actual, cant_partciones, g) > pesoDeParticion(mejor_particion, cant_particiones, g)){
+				mejor_particion = particion_actual;
+			}
+			//restablezco al inicial
+			swapearNodos(nodo_i, conjunto_nodo_i, nodo_j, conjunto_nodo_j, particion_actual);
+
+		}
+	}
+	return convertirParticionEnSolucion(mejor_particion, cant_nodos);
+}
+
+void swapearNodos(int nodo_i, int conjunto_nodo_j, int nodo_j, int conjunto_nodo_i, Particion& particion_actual){
+	particion_actual[conjunto_nodo_i].erase(nodo_i)
+
+}
+
+void BusquedaLocal1::imprimir_solucion() const{
+	for(int i = 0; i < mejor_vecino.size()-1; i++){
+	cout << mejor_vecino[i] << " ";
+	}
+	cout << mejor_vecino[mejor_vecino.size()-1] << endl;
+}
+
+void imprimir_particion(Particion& particion){
+	for(int i = 0; i < particion.size(); i++){
+		cout <<"[";
+		for(Conjunto::const_iterator it = particion[i].begin(); it != particion[i].end(); it++){
+			cout << (*it).nodo << " ";
+		}
+		cout << "]" << endl;
+	}
+
+}

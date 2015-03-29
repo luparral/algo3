@@ -1,0 +1,44 @@
+Para cada escenario de medicion, se realizaron 500 repeticiones de los cuales se quedó con la mejor medicion de cada una.
+Para cada cantidad de tablones y saltos, se realizaron 10 mediciones, y de los 10 mejores tiempos tomados, se realizo un promedio de ellos.
+
+Promedio de 1millon de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 900k de tablones: 0.0002 milisegundos y pudo cruzar.
+
+Promedio de 800k de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 700k de tablones: 0.0004 milisegundos y pudo cruzar.
+
+Promedio de 600k de tablones: 0.0002 milisegundos y pudo cruzar.
+
+Promedio de 500k de tablones: 0.0005 milisegundos y pudo cruzar.
+
+Promedio de 400k de tablones: 0.0002 milisegundos y pudo cruzar.
+
+Promedio de 300k de tablones: 0.0002 milisegundos y pudo cruzar.
+
+Promedio de 200k de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 100k de tablones: 0.0004 milisegundos y pudo cruzar.
+
+Promedio de 80k de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 60k de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 40k de tablones: 0.0004 milisegundos y pudo cruzar.
+
+Promedio de 20k de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 10k de tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 1k de tablones: 0.0002 milisegundos y pudo cruzar.
+
+Promedio de 800 tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 400 tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 200 tablones: 0.0003 milisegundos y pudo cruzar.
+
+Promedio de 100 tablones: 0.0002 milisegundos y pudo cruzar.
+
+Promedio de 10 tablones: 0.0002 milisegundos y pudo cruzar.

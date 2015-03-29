@@ -1,0 +1,77 @@
+﻿Mejor tiempo para 10 productos con umbral 16: 0 milisegundos.
+Promedio para 10 productos con umbral 16: 0 milisegundos.
+
+
+Mejor tiempo para 20 productos con umbral 16: 0 milisegundos.
+Promedio para 20 productos con umbral 16: 0 milisegundos.
+
+
+Mejor tiempo para 30 productos con umbral 16: 0 milisegundos.
+Promedio para 30 productos con umbral 16: 0 milisegundos.
+
+
+Mejor tiempo para 40 productos con umbral 16: 0 milisegundos.
+Promedio para 40 productos con umbral 16: 0.64 milisegundos.
+
+
+Mejor tiempo para 50 productos con umbral 16: 0 milisegundos.
+Promedio para 50 productos con umbral 16: 0.6 milisegundos.
+
+
+Mejor tiempo para 60 productos con umbral 16: 0 milisegundos.
+Promedio para 60 productos con umbral 16: 0.64 milisegundos.
+
+
+Mejor tiempo para 70 productos con umbral 16: 0 milisegundos.
+Promedio para 70 productos con umbral 16: 1.24 milisegundos.
+
+
+Mejor tiempo para 80 productos con umbral 16: 0 milisegundos.
+Promedio para 80 productos con umbral 16: 1.88 milisegundos.
+
+
+Mejor tiempo para 90 productos con umbral 16: 0 milisegundos.
+Promedio para 90 productos con umbral 16: 2.52 milisegundos.
+
+
+Mejor tiempo para 100 productos con umbral 16: 0 milisegundos.
+Promedio para 100 productos con umbral 16: 2.52 milisegundos.
+
+
+Mejor tiempo para 200 productos con umbral 16: 15 milisegundos.
+Promedio para 200 productos con umbral 16: 21.28 milisegundos.
+
+
+Mejor tiempo para 300 productos con umbral 16: 62 milisegundos.
+Promedio para 300 productos con umbral 16: 63.12 milisegundos.
+
+
+Mejor tiempo para 400 productos con umbral 16: 140 milisegundos.
+Promedio para 400 productos con umbral 16: 146.24 milisegundos.
+
+
+Mejor tiempo para 500 productos con umbral 16: 281 milisegundos.
+Promedio para 500 productos con umbral 16: 283.76 milisegundos.
+
+
+Mejor tiempo para 600 productos con umbral 16: 453 milisegundos.
+Promedio para 600 productos con umbral 16: 467.52 milisegundos.
+
+
+Mejor tiempo para 700 productos con umbral 16: 750 milisegundos.
+Promedio para 700 productos con umbral 16: 801.72 milisegundos.
+
+
+Mejor tiempo para 800 productos con umbral 16: 1149 milisegundos.
+Promedio para 800 productos con umbral 16: 1186.68 milisegundos.
+
+
+Mejor tiempo para 900 productos con umbral 16: 1682 milisegundos.
+Promedio para 900 productos con umbral 16: 1693.08 milisegundos.
+
+
+Mejor tiempo para 1000 productos con umbral 16: 2258 milisegundos.
+Promedio para 1000 productos con umbral 16: 2278.88 milisegundos.
+
+
+El PROMEDIO de los MEJORES TIEMPOS de las 19 instancias es: 357.368 milisegundos.

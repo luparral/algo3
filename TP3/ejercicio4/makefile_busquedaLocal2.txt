@@ -1,0 +1,18 @@
+//busqueda local 2
+
+all: main
+
+main: main.o greedy.o local2.o
+	g++ -o main main.o greedy.o local2.o
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+greedy.o: greedy.cpp
+	g++ -c greedy.cpp
+
+local2.o: local2.cpp
+	g++ -c local2.cpp
+
+clean: 
+	rm *o main

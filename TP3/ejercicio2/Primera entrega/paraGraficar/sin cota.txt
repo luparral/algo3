@@ -1,0 +1,4 @@
+Mejor tiempo para 5 nodos, 5 aristas y k=5 : 3.361 milisegundos
+Mejor tiempo para 10 nodos, 30 aristas y k=5 : 1256.361 milisegundos
+Mejor tiempo para 20 nodos, 30 aristas y k=5 : 8256.361 milisegundos
+Mejor tiempo para 40 nodos, 30 aristas y k=5 : 100256.361 milisegundos
